@@ -1,0 +1,321 @@
+ html {
+     background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_960_720.jpg);
+     color: white;
+     scroll-behavior: smooth;
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ a {
+     text-decoration: none;
+     : white;
+ }
+ 
+ header {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 30px 70px;
+ }
+ 
+ #welcome-section {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ nav {
+     position: fixed;
+     background-color: black;
+ }
+ 
+ .nav-area {
+     list-style: none;
+ }
+ 
+ .nav-area li {
+     display: inline-block;
+     padding: 0px 30px;
+     text-transform: uppercase;
+     height: 30px;
+ }
+ 
+ .name {
+     text-align: center;
+     margin-top: 150px
+ }
+ 
+ h1 {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 20px;
+ }
+ 
+ h2 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 50px;
+     border: 1px solid white;
+     border-width: 1px 400px;
+ }
+ 
+ .aboutphoto {
+     height: 350px;
+     width: 290px;
+     box-shadow: 0 0 600px #fff;
+ }
+ 
+ #About {
+     display: flex;
+     margin-left: 20%;
+     margin-top: 30%;
+     padding-top: 125px;
+ }
+ 
+ #About p {
+     padding-left: 130px;
+     padding-top: 60px;
+     color: #fff;
+     font-family: 'Raleway', sans-serif;
+     font-size: 25px;
+     height: 250px;
+ }
+ 
+ .Skills {
+     display: grid;
+     justify-content: space-around;
+     margin-top: 30%;
+     padding-top: 30px;
+ }
+ 
+ .Skills p {
+     text-align: center;
+     font-style: uppercase;
+     font-size: 25px;
+     text-decoration-line: underline;
+     text-transform: capitalize;
+ }
+ 
+ .Skills span {
+     font-size: 35px;
+     color: #d3360c;
+ }
+ 
+ #skills {
+     font-size: 28px;
+ }
+ 
+ .certifications {
+     color: White;
+     width: 230px;
+     font-size: 70px;
+     text-align: center;
+     border: 2px solid #fa2f17;
+     border-radius: 20px;
+ }
+ 
+ .myphotos {
+     text-align: center;
+     border: 1px solid white;
+     border-width: 1px 400px;
+     font-size: 40px;
+ }
+ 
+ img {
+     height: 326px;
+ }
+ 
+ #Photos {
+     margin-top: 30%;
+     padding-top: 30px;
+ }
+ 
+ .Photos {
+     display: grid;
+     grid-template-columns: 300px 300px 300px 300px;
+     grid-gap: 5px 30px;
+     padding: 0 4px;
+ }
+ 
+ #Contract {
+     margin-top: 50%;
+ }
+ 
+ .fbbox {
+     height: 80px;
+     width: 80px;
+     background-color: white;
+     color: black;
+     border-radius: 25%;
+     margin-left: 35%;
+     text-align: center;
+     font-size: 60px;
+     font-family: Tahoma, Verdana, Segoe, sans-serif;
+     background: linear-gradient(to right, #56ccf2, #2f80ed);
+     border: 5px solid #fff;
+ }
+ 
+ #fb-photo {
+     height: 40px;
+     width: 40px;
+ }
+ 
+ .igbox {
+     height: 80px;
+     width: 80px;
+     background-color: white;
+     color: black;
+     border-radius: 25%;
+     margin-left: 65%;
+     text-align: center;
+     font-size: 60px;
+     font-family: Tahoma, Verdana, Segoe, sans-serif;
+     background: linear-gradient(to right, #56ccf2, #2f80ed);
+     border: 5px solid #fff;
+ }
+ 
+ #ig-photo {
+     height: 40px;
+     width: 40px;
+ }
+ 
+ .gmailbox {
+     height: 80px;
+     width: 80px;
+     background-color: white;
+     color: black;
+     border-radius: 25%;
+     margin-left: 35%;
+     text-align: center;
+     font-size: 60px;
+     font-family: Tahoma, Verdana, Segoe, sans-serif;
+     background: linear-gradient(to right, #56ccf2, #2f80ed);
+     border: 5px solid #fff;
+ }
+ 
+ #gmail-photo {
+     height: 40px;
+     width: 40px;
+ }
+ 
+ .linkbox {
+     height: 80px;
+     width: 80px;
+     background-color: white;
+     color: black;
+     border-radius: 25%;
+     margin-left: 65%;
+     background: linear-gradient(to right, #56ccf2, #2f80ed);
+     border: 5px solid #fff;
+     ;
+ }
+ 
+ #linkphoto {
+     height: 40px;
+     width: 40px;
+     padding-left: 20px;
+     padding-top: 20px;
+ }
+ 
+ footer {
+     background-color: #fff;
+     color: black;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 40px;
+     font-style: bold;
+ }
+ 
+ footer a {
+     color: black;
+ }
+ 
+ a:hover {
+     color: white;
+     background-color: #21653;
+     box-shadow: 0 0 30px #255784, 0 0 50px #255784, 0 0 90px #255784;
+     transition: .1s;
+ }
+ 
+ .linkbox:hover {
+     transform: scale(115%);
+     box-shadow: 0 0 10px #c6d2e2, 0 0 30px #255784, 0 0 30px #c6d2e2;
+     transition: .3s;
+ }
+ 
+ .gmailbox:hover {
+     transform: scale(115%);
+     box-shadow: 0 0 10px #c6d2e2, 0 0 30px #255784, 0 0 30px #c6d2e2;
+     transition: .3s;
+ }
+ 
+ .igbox:hover {
+     transform: scale(115%);
+     box-shadow: 0 0 10px #c6d2e2, 0 0 30px #255784, 0 0 30px #c6d2e2;
+     transition: .3s;
+ }
+ 
+ .fbbox:hover {
+     transform: scale(115%);
+     box-shadow: 0 0 10px #c6d2e2, 0 0 30px #255784, 0 0 30px #c6d2e2;
+     transition: .3s;
+ }
+ 
+ @media (max-width:28.75em) {
+     #navbar {
+         justify-content: center;
+     }
+     .nav-area {
+         margin: 0 1rem;
+     }
+ }
+ 
+ @media screen and (max-width:800px) {
+     h2 {
+         border-width: 1px 50px;
+     }
+     h1 {
+         font-size: 13px;
+     }
+     header {
+         padding: 30px 0;
+     }
+     .nav-area li {
+         padding: 0 10px;
+     }
+     #About p {
+         font-size: 12px;
+         padding-left: 2px;
+         transform: translateY)(-35px);
+     }
+     .aboutphoto {
+         height: 250px;
+         width: 200px;
+     }
+     #About {
+         margin-left: 5%;
+     }
+     .Skills p {
+         font-size: 20px;
+     }
+     .Skills p span {
+         font-size: 25px;
+     }
+     .myphotos {
+         border-width: 1px 50px;
+     }
+     #Contract {
+         transform: translateX(-20px);
+     }
+     .Photos img {
+         height: 180px;
+         width: 180px;
+     }
+     .Photos {
+         grid-template-columns: 180px 180px;
+         grid-gap: 1px 1px;
+     }
+     footer {
+         transform: translateY(-10px);
+     }
+ }
